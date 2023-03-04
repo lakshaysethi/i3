@@ -115,3 +115,7 @@ mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend" {
 }
 
 bindsym $modkey+x mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend"
+
+exec --no-startup-id copyq
+exec --no-startup-id flameshot
+exec --no-startup-id blueman-applet
