@@ -114,7 +114,7 @@ mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend" {
   bindsym Return mode "default"
 }
 
-bindsym $modkey+x mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend"
+bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend"
 
 exec --no-startup-id copyq
 exec --no-startup-id flameshot
