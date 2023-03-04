@@ -102,3 +102,16 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend" {
+  bindsym l exec i3-msg exit
+  bindsym r exec systemctl reboot
+  bindsym u exec systemctl suspend
+  bindsym s exec poweroff
+  bindsym k exec i3lock; mode "default"
+  bindsym Escape mode "default"
+  bindsym Return mode "default"
+}
+
+bindsym $modkey+x mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend"
