@@ -23,7 +23,7 @@ bindsym $mod+u exec xsel |festival --tts
 
 # bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+d exec --no-startup-id rofi -show drun
-
+bindsym $mod+l exec exec i3lock -c 000000
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
