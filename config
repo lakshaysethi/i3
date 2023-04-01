@@ -120,3 +120,7 @@ bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown, loc[k] s[u]spend"
 exec --no-startup-id copyq
 exec --no-startup-id flameshot
 exec --no-startup-id blueman-applet
+
+git config --global user.name "Lakshay Sethi"
+git config --global user.email "8218018-lakshaynz@users.noreply.gitlab.com"
+
