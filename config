@@ -121,6 +121,6 @@ exec --no-startup-id copyq
 exec --no-startup-id flameshot
 exec --no-startup-id blueman-applet
 
-git config --global user.name "Lakshay Sethi"
-git config --global user.email "8218018-lakshaynz@users.noreply.gitlab.com"
+exec git config --global user.name "Lakshay Sethi"
+exec git config --global user.email "8218018-lakshaynz@users.noreply.gitlab.com"
 
